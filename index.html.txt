@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>For My Love ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  overflow-x:hidden;
+  background:#0f172a;
+  color:white;
+  scroll-behavior:smooth;
+}
+
+/* Background */
+
+.stars{
+  position:fixed;
+  width:100%;
+  height:100%;
+  background:url('https://i.imgur.com/YKY28eT.png');
+  opacity:0.4;
+  z-index:-1;
+  animation:move 120s linear infinite;
+}
+
+@keyframes move{
+  from{background-position:0 0;}
+  to{background-position:-10000px 5000px;}
+}
+
+section{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:40px 20px;
+  position:relative;
+}
+
+/* Card */
+
+.card{
+  width:100%;
+  max-width:700px;
+  background:rgba(255,255,255,0.08);
+  backdrop-filter:blur(14px);
+  border:1px solid rgba(255,255,255,0.1);
+  border-radius:30px;
+  padding:50px 35px;
+  text-align:center;
+  box-shadow:0 0 40px rgba(255,255,255,0.08);
+  position:relative;
+  overflow:hidden;
+}
+
+.glow{
+  position:absolute;
+  width:300px;
+  height:300px;
+  background:#ff4d6d;
+  border-radius:50%;
+  filter:blur(140px);
+  opacity:0.2;
+  top:-100px;
+  right:-100px;
+}
+
+.glow2{
+  position:absolute;
+  width:250px;
+  height:250px;
+  background:#8b5cf6;
+  border-radius:50%;
+  filter:blur(130px);
+  opacity:0.2;
+  bottom:-80px;
+  left:-80px;
+}
+
+h1{
+  font-size:3rem;
+  margin-bottom:20px;
+  color:#ffd6e0;
+  font-family:'Dancing Script',cursive;
+}
+
+p{
+  font-size:1.1rem;
+  line-height:2;
+  color:#f8fafc;
+  margin-bottom:20px;
+}
+
+.emoji{
+  font-size:60px;
+  margin-bottom:20px;
+  animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%,100%{transform:translateY(0);}
+  50%{transform:translateY(-10px);}
+}
+
+.next-btn{
+  margin-top:25px;
+  display:inline-block;
+  padding:14px 30px;
+  border-radius:50px;
+  text-decoration:none;
+  background:linear-gradient(135deg,#ff4d6d,#ff758f);
+  color:white;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.next-btn:hover{
+  transform:scale(1.05);
+}
+
+.small{
+  margin-top:25px;
+  color:#ffd6e0;
+  opacity:0.8;
+}
+
+.heart{
+  animation:heartbeat 1.5s infinite;
+  display:inline-block;
+}
+
+@keyframes heartbeat{
+  0%{transform:scale(1);}
+  25%{transform:scale(1.2);}
+  50%{transform:scale(1);}
+  75%{transform:scale(1.2);}
+  100%{transform:scale(1);}
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<!-- PAGE 1 -->
+
+<section id="page1">
+
+  <div class="card">
+
+    <div class="glow"></div>
+    <div class="glow2"></div>
+
+    <div class="emoji">🌙✨</div>
+
+    <h1>I'm Sorry, My Love ❤️</h1>
+
+    <p>
+      I know I hurt you by forgetting our anniversary,
+      and I hate that I made you feel unimportant.
+      Especially when we’re far away from each other,
+      you deserved to feel extra loved, remembered,
+      and appreciated.
+    </p>
+
+    <p>
+      Forgetting the date was my mistake,
+      but I could never forget you.
+      You are the most beautiful part of my life,
+      the person who makes even my hardest days feel lighter.
+    </p>
+
+    <a href="#page2" class="next-btn">Continue ❤️</a>
+
+  </div>
+
+</section>
+
+<!-- PAGE 2 -->
+
+<section id="page2">
+
+  <div class="card">
+
+    <div class="glow"></div>
+    <div class="glow2"></div>
+
+    <div class="emoji">💌</div>
+
+    <h1>Thank You For Loving Me</h1>
+
+    <p>
+      Thank you for being patient with me,
+      for understanding me even when I mess up,
+      and for staying beside me despite the distance.
+    </p>
+
+    <p>
+      Thank you for your time,
+      your effort,
+      your late-night calls,
+      your care,
+      your love,
+      and every little moment you give me.
+    </p>
+
+    <p>
+      Sometimes I don’t say it enough,
+      but I truly appreciate everything you do.
+      You make my life softer, happier, and more meaningful.
+    </p>
+
+    <a href="#page3" class="next-btn">One More Thing ❤️</a>
+
+  </div>
+
+</section>
+
+<!-- PAGE 3 -->
+
+<section id="page3">
+
+  <div class="card">
+
+    <div class="glow"></div>
+    <div class="glow2"></div>
+
+    <div class="emoji">❤️</div>
+
+    <h1>Forever You</h1>
+
+    <p>
+      No distance,
+      no mistake,
+      and no forgotten date
+      could ever change how deeply I love you.
+    </p>
+
+    <p>
+      I promise to love you better,
+      appreciate you louder,
+      and never let you doubt your importance in my life again.
+    </p>
+
+    <p>
+      Happy Anniversary, baby.
+      Thank you for existing,
+      thank you for choosing me,
+      and thank you for being my safe place.
+    </p>
+
+    <h1 class="heart">I Love You ❤️</h1>
+
+    <div class="small">
+      Forever Yours ✨
+    </div>
+
+  </div>
+
+</section>
+
+</body>
+</html>
